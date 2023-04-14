@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-requezz-dev-plugin",
-  "version": "0.0.1",
+  "name": "eslint-plugin-requezz-dev",
+  "version": "0.0.10",
   "description": "plugin for production project",
   "keywords": [
     "eslint",
@@ -15,6 +15,8 @@
     "test": "mocha tests --recursive"
   },
   "dependencies": {
+    "generator-eslint": "^4.1.1",
+    "micromatch": "^4.0.5",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
